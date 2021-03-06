@@ -2,6 +2,7 @@
 
 This is just for test
 This is second line
+Another line
 
 This private workshop repository contains projects, hands-on training, coding challenges, and class-notes for the Clarusway Students of AWS & DevOps Cohort 7/21.
 
