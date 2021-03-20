@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../flask-02-Jinja_Template"
+		}
+	],
+	"settings": {}
+}
