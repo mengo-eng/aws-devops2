@@ -19,9 +19,10 @@ def main():
             milliseconds = int(request.form["number"]) 
             h, m, s = millisecondsapp(milliseconds)
             return render_template("result.html", h = f"{h} hours"* (h !=0), m = f"{m} minutes" * (m !=0), \
-            s = f"{s} seconds"* (s !=0), ms = f"just {milliseconds} milliseconds" * (milliseconds < 1000), milliseconds = milliseconds, developer_name = "Elnur")
+            s = f"{s} seconds"* (s !=0), ms = f"just {milliseconds} milliseconds" * (milliseconds < 1000), \
+                milliseconds = milliseconds, developer_name = "Elnur")
         else:
-            return render_template("index.html", not_valid = True)
+            return render_template("index.html", not_valid = True, developer_name = "Elnur")
     else:
         return render_template("index.html")
 
