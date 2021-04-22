@@ -24,7 +24,7 @@ def main():
         else:
             return render_template("index.html", not_valid = True, developer_name = "Elnur")
     else:
-        return render_template("index.html")
+        return render_template("index.html", developer_name = "Elnur")
 
 if __name__ == "__main__":
     # app.run(debug=True)
